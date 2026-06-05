@@ -53,3 +53,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+/.vs/DisableFinalTargetDot.slnx
+/.vs/DisableFinalTargetDot.slnx
+/.vs/DisableFinalTargetDot.slnx
+/DisableFinalTargetDot/obj
