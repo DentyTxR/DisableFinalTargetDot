@@ -5,9 +5,16 @@
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <Nullable>enable</Nullable>
 	  <LangVersion>13</LangVersion>
+	  <PlatformTarget>AnyCPU</PlatformTarget>
+	  <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="6.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		<PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Lib.Harmony" Version="2.4.2" />
     <PackageReference Include="Northwood.LabAPI" Version="1.1.7" />
   </ItemGroup>
