@@ -21,7 +21,6 @@ namespace DisableFinalTargetDot
 
         public override void Enable()
         {
-            HarmonyLib.Harmony.DEBUG = true;
             Harmony = new Harmony($"{Author}.{Name}");
             Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
